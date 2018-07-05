@@ -1,0 +1,252 @@
+.lg_reg_content{
+  display: block;
+  width: 100%;
+  margin:0px auto;
+  overflow: hidden;
+  background: url(/static/images/register_bj.jpg);
+  background-position: left top;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  min-height: 700px;
+}
+.con_widths{
+  display: block;
+  width: 1200px;
+  overflow: hidden;
+  margin: 0px auto;
+}
+.lgreg_wid{
+  display: block;
+  width: 500px;
+  margin: 50px 0px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 50px 0px;
+  min-height: 400px;
+  float: right;
+}
+.lg_lef{
+  display: block;
+  float: left;
+  width: 500px;
+}
+.lg_lef img{
+  border: none;
+  width: 500px;
+  height: 490px;
+}
+.lg_rig{
+  display: block;
+  float: left;
+  width: 260px;
+  margin-right: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+.lg_rig p{
+  line-height: 30px;
+  font-size: 14px;
+  color: #555555;
+}
+.lg_tit{
+  display: block;
+  margin: 20px 20px 0px 20px;
+}
+.lg_tit a{
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0px 10px;
+  color: #000000;
+  font-weight: bold;
+}
+#lg_tita{
+  color: #ff6600;
+}
+.lg_rig b{
+  font-weight: normal;
+  color: #dcdcdc;
+  font-size: 18px;
+}
+.lg_list_slide{
+  display: block;
+  overflow: hidden;
+  padding: 0px 40px;
+  margin-top: 20px;
+}
+.fromlist{
+  display: block;
+}
+.fromlist li{
+  display: block;
+  overflow: hidden;
+  position: relative;
+  margin: 10px 0px;
+}
+.from_mm{
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 5px;
+  line-height: 40px;
+  text-decoration: none;
+  padding: 0px 10px;
+  background: #999999;
+}
+.rgphone{
+  display: block;
+  background: #f7faf9;
+  line-height: 50px;
+  font-size: 16px;
+  padding: 0px 15px;
+  color: #333333;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.rgpwd{
+  display: block;
+  background: #f7faf9;
+  line-height: 50px;
+  font-size: 16px;
+  padding: 0px 15px;
+  color: #333333;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.rgmm{
+  font-size: 14px;
+  color: #66cc00;
+  line-height: 30px;
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+.btn_reg{
+  display: block;
+  background: #66CC33;
+  color: #FFFFFF;
+  font-size: 24px;
+  border-radius: 5px;
+  line-height: 55px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.rgma{
+  display: block;
+  background: #f7faf9;
+  line-height: 50px;
+  font-size: 16px;
+  padding: 0px 15px;
+  color: #333333;
+  border: none;
+  width: 100%;
+}
+.rgname{
+  display: block;
+  background: #f7faf9;
+  line-height: 50px;
+  font-size: 16px;
+  padding: 0px 15px;
+  color: #333333;
+  border: none;
+  width: 100%;
+}
+
+/*个人中心样式*/
+.clear:before, .clear:after {
+  content: ""; width: 100%; height: 0; display: block; clear: both;
+}
+.clear {
+  zoom: 1;
+}
+.my{
+  width: 100%;
+  padding: 18px 0;
+  background: url('../images/bg.jpg') no-repeat #2e2e2e;
+  /*-webkit-background-size: cover;*/
+  /*background-size: cover;*/
+}
+.my .my-middle{
+  width: 1200px;
+  margin: 0 auto;
+}
+.my .my-middle .my-left{
+  width: 200px;
+  min-height: 780px;
+  background: #fff;
+  border-radius: 2px;
+  float: left;
+
+}
+.my .my-middle .my-left .my-l-top{
+  padding: 0.1px;
+  width: 100%;
+  background: #fff;
+}
+.my .my-middle .my-left .my-l-top .my-pic{
+  width: 80px;
+  height: 80px;
+  margin: 30px auto 15px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.my .my-middle .my-left .my-l-top .my-pic img{
+  width: 100%;
+}
+.my .my-middle .my-left .my-l-top p{
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  padding-bottom: 8px;
+
+}
+.my .my-middle .my-left .my-l-top p:after{
+  content: "";
+  width: 60%;
+  height: 1px;
+  display: block;
+  margin: 8px auto 16px;
+  background: #f6f6f6;
+}
+.my .my-middle .my-left .my-l-bottom{
+  width: 100%;
+}
+.my .my-middle .my-left .my-l-bottom ul{
+  width: 100%;
+  overflow: hidden;
+}
+.my .my-middle .my-left .my-l-bottom ul li{
+  width: 100%;
+  height: 34px;
+  margin-bottom: 30px;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.my .my-middle .my-left .my-l-bottom ul .my_classa{
+  background: #f1fae8;
+  border-bottom: 1px solid #66cc00;
+}
+.my .my-middle .my-left .my-l-bottom ul li img{
+  display: inline-block;
+  width: 24px;
+  margin-top: 5px;
+  float: left;
+}
+.my .my-middle .my-left .my-l-bottom ul li p{
+  float: left;
+  line-height: 34px;
+  font-size: 18px;
+  color: #333;
+  margin-left: 8px;
+}

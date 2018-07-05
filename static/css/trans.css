@@ -1,0 +1,573 @@
+#translate{
+  display: block;
+  width: 100%;
+  background: #f0f0f0;
+  overflow: hidden;
+  font-family: "Microsoft YaHei", "微软雅黑";
+}
+.trans_content{
+  display:block;
+  width: 1280px;
+  margin: 0px auto;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-top: 10px solid #f1f1f1;
+}
+.trans_souxun{
+  display:block;
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 20px 20px;
+}
+.trans_search{
+  border: 1px solid #ccc;
+  background: rgb(238,238,238);
+  border-radius: 8px;
+  height: 46px;
+  line-height: 46px;
+  width: 680px;
+  display:block;
+  float: left;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.trans_text{
+  padding: 0px 15px;
+  width: 570px;
+  border: none;
+  background: none;
+  color: #555555;
+  font-size: 16px;
+  float: left;
+  height: 46px;
+}
+.trans_btn{
+  border: none;
+  background: url("../images/sousuo.png") center center no-repeat;
+  width: 80px;
+  float: left;
+  height: 46px;
+  cursor: pointer;
+}
+.trans_p{
+  display:block;
+  color: #999999;
+  line-height: 46px;
+  font-size:18px;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  overflow: hidden;
+}
+.transate_fenlei{
+  display: block;
+  background: url("../images/soudi.png") left bottom repeat-x;
+  overflow: hidden;
+  padding:20px 20px 40px 20px;
+
+}
+.translatesel{
+  display: block;
+  overflow:hidden;
+  color: #555555;
+  font-size:16px;
+  line-height: 30px;
+}
+.translatesel label{
+  display: block;
+  float:left;
+  width: 60px;
+  margin:5px 0px;
+  color: #666666;
+  font-size:16px;
+  line-height: 30px;
+  overflow: hidden;
+}
+.sel_div{
+  display: block;
+  float:left;
+  overflow: hidden;
+  line-height: 30px;
+  margin:5px 0px;
+  width: 1100px;
+}
+.sel_div a{
+  text-decoration: none;
+  font-size:16px;
+  margin-right: 30px;
+  line-height: 30px;
+
+}
+.sel_div a:hover,.selthis{
+  color: #ff3300;
+}
+.translist{
+  display: block;
+  padding: 20px 40px;
+}
+.trans_ans{
+  display: block;
+  overflow: hidden;
+  padding: 30px 0px;
+  border-bottom: 1px solid #dcdcdc;
+  position: relative;
+}
+.trans_lef{
+  position: absolute;
+  left: 0px;
+  top:30px;
+}
+.trans_lef img{
+  border: none;
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+}
+.trans_rig{
+  display: block;
+  float: left;
+  padding-left:220px;
+  overflow: hidden;
+  width: 940px;
+}
+.trans01{
+  display: block;
+
+}
+.trans02{
+  display: block;
+  font-size:24px;
+  color: #000000;
+  line-height: 45px;
+  font-family: "Microsoft YaHei";
+  font-weight: 700;
+}
+.trans01 h2{
+  display: block;
+  position: relative;
+  height: 30px;
+}
+.trans01 h2 a{
+  display: block;
+  float:left;
+  font-size:16px;
+  color: #333333;
+  line-height: 30px;
+  font-family: "Microsoft YaHei";
+  margin-right:20px;
+  text-decoration: none;
+}
+.trans01 h2 span{
+  display: block;
+  float: right;
+  vertical-align: middle;
+  position: absolute;
+  right:0px;
+  top: -30px;
+  z-index: 9999;
+}
+.trans01 h2 span img{
+  width: 30px;
+  border: none;
+
+}
+.trans03{
+  display: block;
+  clear: both;
+  overflow: hidden;
+  margin: 10px 0px;
+}
+.trans03 strong{
+  display: block;
+  float: left;
+  font-size:16px;
+  color: #666666;
+}
+.trans03 p{
+  display: block;
+  float: right;
+  font-size:16px;
+  color: #333333;
+}
+.trans03 span{
+  display: block;
+  float: right;
+  font-size:16px;
+  color: #666666;
+}
+.trans04{
+  display: block;
+  margin: 10px 0px;
+}
+.trans04 p{
+  display: inline-table;
+  font-size:16px;
+  line-height: 30px;
+  margin-right:10px;
+  background: #e5f5ff;
+  color: #0090ff;
+  border-radius: 5px;
+  padding: 0px 8px;
+}
+/*经纪人详情页*/
+
+#translatesay{
+  display: block;
+  width: 100%;
+  background: #f0f0f0;
+  overflow: hidden;
+  font-family: "Microsoft YaHei";
+}
+.translatesay_content{
+  display: block;
+  width: 1200px;
+  margin:0px auto;
+  background: #ffffff;
+}
+.trans_header{
+  display: block;
+  background: url("../images/soudi.png") left bottom repeat-x;
+  overflow: hidden;
+  padding:40px 20px 40px 20px;
+}
+.transay_lf{
+  display: block;
+  float: left;
+  margin-right:50px;
+}
+.transay_lf strong{
+  display: block;
+  overflow: hidden;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom:5px;
+}
+.transay_lf p{
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  font-size:15px;
+  line-height: 25px;
+  color: #666666;
+}
+.transay_cen{
+  display: block;
+  float: left;
+  margin-right:40px;
+  width: 520px;
+}
+.transay_rig{
+  display: block;
+  float: left;
+  width: 350px;
+}
+.transay_title{
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  margin-top:40px;
+}
+.transay_title h2{
+  width: 32%;
+  text-align: center;
+  display: inline-table;
+}
+.transay_title h2 strong{
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  font-size:30px;
+  font-weight: normal;
+  color: #666666;
+}
+.transay_title h2 p{
+  line-height: 30px;
+  text-align: center;
+  font-size:16px;
+  color: #666666;
+}
+.transay_phone{
+  display: block;
+  overflow: hidden;
+  margin-top:30px;
+}
+.transay_phone p{
+  display: block;
+  text-align: center;
+  color: #66cc00;
+  font-size:24px;
+  line-height:40px;
+}
+.transay_phone span{
+  display: block;
+  text-align: center;
+  font-size:18px;
+  color: #666666;
+  line-height:40px;
+}
+.trans_h2{
+  display: block;
+  padding: 10px 20px;
+  font-size:20px;
+  color: #333333;
+}
+.tassess{
+  display: block;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+.tassess_lf{
+  display: block;
+  float: left;
+  width: 750px;
+  margin-right:50px;
+}
+.tassess_rg{
+  display: block;
+  float: left;
+  width: 350px;
+}
+.assess_an{
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 25px 0px;
+}
+.asserss_img{
+  display: block;
+  float: left;
+  width: 110px;
+  height: 110px;
+  border-radius: 60px;
+  margin-right:30px;
+}
+.asserss_img img{
+  border: none;
+  width: 110px;
+  height: 110px;
+  border-radius: 60px;
+}
+.asserss_names{
+  display: block;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.asserss_names_lf{
+  display: block;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.asserss_names_lf strong{
+  display: block;
+  float: left;
+  line-height: 35px;
+  font-size:20px;
+}
+.asserss_names_lf p{
+  display: block;
+  float:right;
+}
+.asserss_names_rg{
+  display: block;
+  overflow: hidden;
+}
+.asserss_names_rg strong{
+  display: block;
+  float: left;
+  font-size:18px;
+  color: #666666;
+  width: 420px;
+  overflow: hidden;
+}
+.asserss_names_rg p{
+  display: block;
+  float:right;
+  font-size:16px;
+  color: #666666;
+  width: 130px;
+  text-align: right;
+}
+.asserss_names_lf p img{
+  border: none;
+  margin-left: 10px;
+}
+.assess_h2{
+  display: block;
+  overflow: hidden;
+}
+.assess_h2 h2{
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  font-size:20px;
+  line-height: 40px;
+  margin-top: 30px;
+}
+.assess_h2 div{
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  margin: 10px 0px;
+}
+.assess_h2 div p{
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  font-size:16px;
+  color: #666666;
+  line-height: 35px;
+}
+#sanjiao {
+  font-size: 16px;
+  position: relative;
+  text-decoration: none;
+  padding-right: 18px;
+}
+#sanjiao2 {
+  font-size: 16px;
+  position: relative;
+  text-decoration: none;
+  padding-right: 18px;
+}
+
+#sanjiao span { border: 6px solid #666666; border-top-color: transparent; border-left-color: transparent; border-right-color: transparent; display: inline-block; position: absolute; top: 0.28125rem; right: 0.04688rem; }
+#sanjiao .bian { border-top-color: #666666; border-bottom-color: transparent; border-left-color: transparent; border-right-color: transparent; display: inline-block; position: absolute; top: 0.5rem; right: 0.04688rem; }
+#sanjiao2 span { border: 6px solid #666666; border-top-color: transparent; border-left-color: transparent; border-right-color: transparent; display: inline-block; position: absolute; top: 0.28125rem; right: 0.04688rem; }
+#sanjiao2 .bian { border-top-color: #666666; border-bottom-color: transparent; border-left-color: transparent; border-right-color: transparent; display: inline-block; position: absolute; top: 0.5rem; right: 0.04688rem; }
+.tran_pingjia{
+  display: block;
+  overflow: hidden;
+}
+.pingjia_title{
+  display: block;
+  color: #000000;
+  font-size:20px;
+  margin: 15px 0px 20px 0px;
+ }
+.pingjia_title b{
+font-weight: normal;
+  font-size:12px;
+  color: #666666;
+  margin-left:10px;
+}
+.pingjia_write{
+  display: block;
+}
+.pjstars{
+  display: block;
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-size:16px;
+  color: #666666;
+}
+.pjstars a{
+  text-decoration: none;
+  margin: 0px 7px;
+  vertical-align: middle;
+  background: url("../images/xinghui.gif") no-repeat;
+  width: 24px;
+  height: 23px;
+  display: inline-table;
+}
+#xuanzhong{
+  background: url("../images/xing.gif") no-repeat;
+  width: 24px;
+  height: 23px;
+}
+.pjstars strong{
+  font-size:16px;
+  line-height:30px;
+  margin-left: 20px;
+  color: #666666;
+}
+.textarea{
+  min-height: 120px;
+  display: block;
+  width: 98%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size:14px;
+}
+.pjbtns{
+  display: block;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size:16px;
+  color: #ffffff;
+  background: #66cc00;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.mypinglun{
+  display: block;
+  overflow: hidden;
+  clear: both;
+  padding: 20px 20px;
+  border-top: 10px solid #f0f0f0;
+}
+.pjstar_this{
+  display: inline-table;
+}
+.trans_title{
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: normal;
+}
+.assmessage{
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding: 30px 0px;
+  text-align: center;
+  font-size:20px;
+  line-height: 40px;
+  color: #000000;
+}
+.pjstar_this{
+  display: inline-table;
+}
+.el-pagination{
+  text-align: center;
+}
+.pj_page{
+  display: block;
+  padding: 20px 0px;
+}
+
+
+.maximg{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  text-align: center;
+  background: rgba(0,0,0,0.1);
+
+}
+.maximg a{
+  display: block;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+.maximg a img{
+  width: 100%;
+  border: none
+}
+.maximg img{
+
+  height: auto;
+  border: none;
+  position: relative;
+  max-width: 80%;
+  top: 50%;
+  transform: translateY(-50%);
+}
