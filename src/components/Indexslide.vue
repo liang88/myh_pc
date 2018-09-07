@@ -11,13 +11,13 @@
         <h2 class="item_title mar_top mar_btom">免费看房<img src="../assets/images/more.png" /></h2>
         <div class="publicar">
           <ul>
-            <li v-for="cars in carhousedata">
-              <a @click="diancars" href="javascript:;" >{{cars.title}}</a>
+            <li v-for="(cars,index) in carhousedata">
+              <a @click="diancars(index)" href="javascript:;" >{{cars.title}}</a>
               <p>{{cars.address}}</p>
             </li>
           </ul>
         </div>
-        <!----------------免费看房弹出层------------------------->
+        <!----------------免费看房弹出层----------------------- -->
         <div class="carscreenall" v-show="carscreens">
         <div class="screen_house"></div>
         <div class="carhouse" >
@@ -40,7 +40,7 @@
           </div>
         </div>
         </div>
-        <!----------------免费看房弹出层------------------------->
+        <!----------------免费看房弹出层----------------------- -->
       </div>
     </div>
 </template>
@@ -54,7 +54,8 @@ export default {
       carhousedata: [],
       username: '',
       userphone: '',
-      usermessage: ''
+      usermessage: '',
+      actid: ''
     }
   },
   computed:mapGetters([
@@ -74,11 +75,14 @@ export default {
         // console.log(this.carhousedata)
       })
     },
-    diancars(){
+    diancars(e){
       this.$store.dispatch('diancarscreen')
+      this.actid = e
     },
     carcolse(){
       this.$store.dispatch('diancarscreen')
+      this.username = ''
+      this.userphone = ''
     },
     userlookhouse(){
       var reg = 11 && /^((13|14|15|17|18)[0-9]{1}\d{8})$/
@@ -94,8 +98,9 @@ export default {
         this.usermessage = '手机号码格式不正确!'
         return
       }
+      var act = this.actid + 1
       var userinfos = {
-        'activityId': 1,
+        'activityId': act,
         'pName': this.username,
         'pMobile': this.userphone
       }

@@ -19,7 +19,7 @@ export default {
     Menuitemview
   },
   mounted(){
-    //this.loadpanduan()
+    this.loadpanduan()
   },
   methods:{
     loadpanduan(){

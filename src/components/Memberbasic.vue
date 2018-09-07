@@ -42,7 +42,7 @@
         <a href="javascript:;" @click="object_btn" class="object_basic">提交信息</a>
         <div class="message">{{objmessage}}</div>
       </div>
-      <!------------弹出层----------->
+      <!------------弹出层--------- -->
       <div v-show="gai_name" class="gai">
         <div   class="gai-name">
           <a href="javascript:;" @click="gclose" class="gn_close"><img src="../assets/images/closes.png" width="30" /> </a>
@@ -80,7 +80,7 @@
           </div>
         </div>
       </div>
-      <!------------弹出层----------->
+      <!------------弹出层--------- -->
       </div>
     </div>
 </template>
@@ -99,7 +99,7 @@ export default {
       upLoadData : {
         id : getCookie ('userId')
       },
-      importFileUrl : '/api/myh_web/uploadImage',
+      importFileUrl : 'http://www.manyihefc.com:8080/myh_web/uploadImage',
       gai_sub: false,
       gai_name: false,
       gtext: '',
@@ -191,6 +191,8 @@ export default {
         return
       }
       if(!this.pass02.length == this.pass03.length){
+        this.pwdmessage = '两次密码不一致!'
+        this.clearmessage ()
         return
       }
       this.usermy = getCookie ('userId')
@@ -240,7 +242,7 @@ export default {
   components: {
     'el-upload': Upload
   }
-}
+};
 </script>
 
 <style scoped>

@@ -6,7 +6,7 @@
     <div class="sub_content">
       <div class="sub_wid">
         <div class="screen_show">
-          <!---------搜索条----------->
+          <!---------搜索条--------- -->
           <div class="searchalls">
              <div class="search_div">
                <input type="text" placeholder="输入楼盘名或者区域" v-model="search_house" @keyup.13="housesou(search_house)" class="search_text2"/>
@@ -15,7 +15,7 @@
              </div>
             <div class="search_history">搜索历史:<a href="#" v-for="item in showHistoryData" @click="searchByHistory(item)">{{item}}</a> </div>
           </div>
-          <!---------分类----------->
+          <!---------分类--------- -->
           <div class="screen_select">
             <div class="area">
               <div class="labels">区域</div>
@@ -67,7 +67,7 @@
         </div>
         <div class="app_con newsall">
           <div class="app_lef new_lef">
-            <!---------分类----------->
+            <!---------分类--------- -->
             <div class="tabs">
               <a href="javascript:;" @click="tabthis(1)" :id="this.types==1?'tabs_a':''">最新一手房</a>
               <a href="javascript:;" @click="tabthis(0)" :id="this.types==0?'tabs_a':''">全部楼盘</a>

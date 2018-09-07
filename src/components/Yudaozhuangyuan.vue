@@ -57,13 +57,13 @@
           </div>
         </div>
         <div class="six">
-          <img src="../assets/images/yudao/6.jpg" alt="">
-          <!---------浮层----------->
+          <img class="six-liu" src="../assets/images/yudao/6.jpg" alt="">
+          <!---------浮层--------- -->
           <div class="maximg" v-show="maximgshow" >
             <a href="javascript:;" @click="closemaximg" ><img src="/static/images/closes.png" /> </a>
             <img class="maxautoimg" :src="img04">
           </div>
-          <!---------浮层----------->
+          <!---------浮层--------- -->
           <div class="s-zi">
             <div class="s-kuang">
               <div class="dingzi">
@@ -142,7 +142,7 @@
           <img src="../assets/images/yudao/9.jpg" alt="">
           <div class="ni-zi clear">
             <div class="ni-map">
-              <!-------百度地图------->
+              <!-------百度地图----- -->
               <div id="allmap"></div>
             </div>
           </div>
@@ -162,7 +162,7 @@
         <h2 id="zb" class="house_title pad_bor"><router-link reg="a" to="/Newhouseshow">推荐更多<img src="../assets/images/more.png" /></router-link></h2>
         <div class="content_houselist">
 
-          <!---an----->
+          <!---an--- -->
           <div class="date_sayshow" v-for="(dthis,key) in datalist">
             <router-link tag="div" :to="'/Housesay/'+dthis.id">
               <a class="d_show0mar" href="#"><img :src="dthis.mainImg" /><p>{{dthis.subTitle}}</p></a>
@@ -256,7 +256,7 @@ export default {
       this.img04 = this.img03
     }
   }
-}
+};
 </script>
 
 <style scoped>
@@ -285,6 +285,10 @@ export default {
   }
 .six .s-zi .s-kuang img {
   border: none;
+}
+.six-liu{
+  width: 100%;
+  display: block;
 }
   .maximg{
     display: block;

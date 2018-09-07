@@ -11,7 +11,17 @@ import global from  './global'
 Vue.config.productionTip = false
 var axios = axio.create()
 axios.defaults.headers.post['Content-Type'] = 'application/json'
-// axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
+// Vue.http.interceptors.push((request,next)=>{
+//   request.credentials = true; // 接口每次请求会跨域携带cookie
+//   request.method= 'POST'; // 请求方式（get,post）
+//   request.headers.set('token','111') // 请求headers携带参数
+ 
+//   next(function(response){
+//     return response;
+ 
+//   });
+// })
+axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 Vue.prototype.$http = axios
 
 Object.keys(filters).forEach((key)=>Vue.filter(key,filters[key]))

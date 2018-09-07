@@ -13,6 +13,10 @@
           <p>版权所有 @ 2018北京满易何房地产经纪有限公司 京ICP备18008272号-2</p>
         </div>
       </div>
+      <div class="xiazai">
+        <img class="img-1" v-show="imgs" src="static/images/xiazai.png" alt="">
+        <img class="img-2" v-show="imgs" @click="img" src="static/images/cha.png" alt="">
+      </div>
     </div>
 </template>
 
@@ -21,6 +25,7 @@ export default {
   name: 'footers',
   data () {
     return {
+      imgs: true,
       ftobject: [
         {
           id: 1,
@@ -44,10 +49,29 @@ export default {
   mounted () {
   },
   methods: {
+    img () {
+      this.imgs = false
+    }
   }
-}
+};
 </script>
 
 <style scoped>
-
+  .xiazai{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .xiazai .img-1{
+    display: block;
+    width: 100%;
+  }
+  .xiazai .img-2{
+    position: absolute;
+    bottom: 54%;
+    right: 1%;
+    cursor: pointer;
+  }
 </style>

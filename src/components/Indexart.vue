@@ -9,7 +9,7 @@
               </el-carousel>
             </div>
             <div class="hot_dateshow">
-              <!---an----->
+              <!---an--- -->
               <div class="date_show" v-for="(hot,key) in hotdata" :style="key%2==0?marginclass:''" >
                 <router-link tag="div" :to="'/Housesay/'+hot.id">
                 <a class="d_show01" href="#"><img :src="hot.mainImg" /><p>{{hot.subTitle}}</p></a>
